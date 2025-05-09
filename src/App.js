@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./NavBarComponent/Navbar";
+import Sidebar from "./SideBarComponent/Sidebar";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
