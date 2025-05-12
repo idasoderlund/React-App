@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .responsiveMenu {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #a53860;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    display: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .navlinks.open {
+    display: flex;
+  }
+
+  .responsiveMenu {
+    display: flex;
+  }
+}
