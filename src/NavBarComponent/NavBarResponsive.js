@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
 function ResponsiveNavbar() {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
+  
   };
   return (
     <nav
@@ -26,30 +23,7 @@ function ResponsiveNavbar() {
         Master Gym App
       </div>
 
-      {/*Hamburgemeny för mobila enheter*/}
-      <div
-        className={`responsiveMenu ${isMobileMenuOpen ? "open" : ""}`}
-        onClick={toggleMobileMenu}
-        style={{
-          cursor: "pointer",
-          display: "none",
-          flexDirection: "column",
-          justifyContent: "space-between",
-          width: "25px",
-          height: "20px",
-        }}
-      >
-        {/*Hamburgerstreck*/}
-        <div
-          style={{ height: "3px", background: "#fff", margin: "2px 0" }}
-        ></div>
-        <div
-          style={{ height: "3px", background: "#fff", margin: "2px 0" }}
-        ></div>
-        <div
-          style={{ height: "3px", background: "#fff", margin: "2px 0" }}
-        ></div>
-      </div>
+      
 
       {/*Navigationslänkarna*/}
       <div
