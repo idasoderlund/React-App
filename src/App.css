@@ -8,6 +8,14 @@ body {
   min-height: 100vh;
 }
 
+.centeredcontent h2 {
+  color: #4f1c51;
+}
+
+.centeredcontent p {
+  color: #4f1c51;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

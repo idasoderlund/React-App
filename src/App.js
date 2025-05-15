@@ -35,7 +35,7 @@ function GymApp() {
           {/*Responsiv eller conditionell rendering*/}
           {isLoggedIn ? (
             <div>
-              <section>
+              <section className="centeredcontent">
                 <h2 style={{ color: "#fff" }}>Workout Schedule</h2>
                 <p style={{ color: "#fff" }}>skriv in träningsplanerna här</p>
               </section>
