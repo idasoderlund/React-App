@@ -26,7 +26,7 @@ function GymApp() {
           style={{
             padding: "20px",
             flex: 1,
-            backgroundColor: "#EF88AD",
+            backgroundColor: "#ffdbdb",
             borderRadius: "100px",
           }}
         >
