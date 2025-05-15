@@ -1,8 +1,33 @@
-@media (max-width: 768px) {
-  .responsiveMenu {
-    display: flex;
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a53860;
+  padding: 10px;
+  position: relative;
+}
 
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.responsiveMenu {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+}
+
+.bar {
+  height: 3px;
+  background-color: #fff;
+  margin: 2px 0;
+}
+
+@media (max-width: 768px) {
   .nav-links {
     position: absolute;
     top: 60px;
@@ -16,7 +41,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   }
 
-  .navlinks.open {
+  .nav-links.open {
     display: flex;
   }
 

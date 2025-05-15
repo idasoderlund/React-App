@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Navbar from "./NavBarComponent/Navbar";
 import Sidebar from "./SideBarComponent/Sidebar";
-import ResponsiveNavbar from "./NavBarComponent/NavBarResponsive";
 import "./App.css";
+import "./NavBarComponent/NavBar.css";
 
 function GymApp() {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // Exempel på koniditonell rendering
@@ -18,9 +18,6 @@ function GymApp() {
       {/*Huvudinnehåll med navbar och innehåll*/}
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
         {/*responsiv navbar*/}
-        <ResponsiveNavbar />
-
-        {/*Navbar vanlig desktop*/}
         <Navbar />
 
         {/*main-innehåll*/}
