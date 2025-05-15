@@ -36,13 +36,54 @@ function GymApp() {
           {isLoggedIn ? (
             <div>
               <section className="centeredcontent">
-                <h2 style={{ color: "#fff" }}>Workout Schedule</h2>
-                <p style={{ color: "#fff" }}>skriv in träningsplanerna här</p>
+                <h1
+                  style={{
+                    color: "#4f1c51",
+                    fontFamily: "Parisienne",
+                    fontSize: "2.5em",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  Sometimes a good workout is all the therapy you need!
+                </h1>
               </section>
-              <section>
-                <h2 style={{ color: "#fff" }}>Statistic</h2>
-                <p style={{ color: "#fff" }}>
-                  Här kan jag lägga in min statistik
+              <section className="centeredcontent">
+                <h2
+                  style={{
+                    color: "#4f1c51",
+                    fontFamily: "Shadows Into Light",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Workout Schedule:
+                </h2>
+                <p
+                  style={{
+                    color: "#4f1c51",
+                  }}
+                >
+                  <b>Monday:</b> Full leg day | <b>Tuesday:</b> Back/Shoulders
+                  Workout | <b>Wednesday:</b> Full leg day <br /> <br />
+                  <b>Thursday:</b> Restday! | <b>Friday:</b> Arm/Ab Workout |
+                  <b>Saturday:</b> Full leg day | <b>Sunday:</b> Restday!
+                </p>
+              </section>
+              <section className="centeredcontent">
+                <h2
+                  style={{
+                    color: "#4f1c51",
+                    fontFamily: "Shadows Into Light",
+                    textDecoration: "underline",
+                  }}
+                >
+                  Calorie Calculation:
+                </h2>
+                <p style={{ color: "#4f1c51" }}>
+                  <b>Daily Calories:</b> 2100 | <b>Daily Proteine Intake:</b>{" "}
+                  158g | <b>Current Deficit/Surplus:</b> +300 Kcal Surplus
                 </p>
               </section>
             </div>

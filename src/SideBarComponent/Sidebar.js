@@ -15,10 +15,10 @@ function Sidebar() {
       <ul style={{ listStyle: "none", padding: 0 }}>
         <li>
           <a
-            href="#workoutschedule"
+            href="#bookedsessions"
             style={{ display: "block", color: "#fff", margin: "40px 20px" }}
           >
-            My Workout Schedule
+            My Booked Sessions
           </a>
         </li>
         <li>

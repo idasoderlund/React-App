@@ -10,13 +10,14 @@
 
 .applogo {
   position: fixed;
-  top: 20px;
-  left: 70px;
+  top: 10px;
+  left: 40px;
   z-index: 10;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-decoration: underline;
   color: #4f1c51;
+  font-family: "Shizuru", system-ui;
 }
 
 .nav-links {
@@ -28,6 +29,7 @@
   padding: 10px 15px;
   text-decoration: none;
   color: #fff;
+  text-decoration: underline;
 }
 
 .responsiveMenu {

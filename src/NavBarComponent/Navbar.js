@@ -29,7 +29,7 @@ function Navbar() {
 
       <div className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>
         <a href="#home">Homepage</a>
-        <a href="#myprofile">My profile</a>
+        <a href="#myprofile">Profile</a>
         <a href="#settings">Settings</a>
       </div>
     </nav>
