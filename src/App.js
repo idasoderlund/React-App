@@ -3,6 +3,7 @@ import Navbar from "./NavBarComponent/Navbar";
 import Sidebar from "./SideBarComponent/Sidebar";
 import "./App.css";
 import "./NavBarComponent/NavBar.css";
+import "./SideBarComponent/SideBar.css";
 
 function GymApp() {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // Exempel på koniditonell rendering

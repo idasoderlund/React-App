@@ -1,0 +1,22 @@
+.asidemenu {
+  display: flex;
+  box-sizing: border-box;
+  width: 200px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.sidebarlist {
+  list-style: none;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.sidebarlist a {
+  display: block;
+  color: #fff;
+  text-decoration: underline;
+}

@@ -1,41 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Sidebar() {
   return (
-    <aside
-      style={{
-        width: "200px",
-        backgroundColor: "#A53860",
-        padding: "10px",
-        display: "flex",
-        justifyContent: "space-around",
-        paddingTop: "50px",
-      }}
-    >
-      <ul style={{ listStyle: "none", padding: 0 }}>
+    <aside className="asidemenu">
+      <ul className="sidebarlist">
         <li>
-          <a
-            href="#bookedsessions"
-            style={{ display: "block", color: "#fff", margin: "40px 20px" }}
-          >
-            My Booked Sessions
-          </a>
+          <a href="#bookedsessions">My Booked Sessions</a>
         </li>
         <li>
-          <a
-            href="#mystatistic"
-            style={{ display: "block", color: "#fff", margin: "40px  20px" }}
-          >
-            My Statistic
-          </a>
+          <a href="#mystatistic">My Statistic</a>
         </li>
         <li>
-          <a
-            href="#notes"
-            style={{ display: "block", color: "#fff", margin: "40px 20px" }}
-          >
-            My WorkOut Notes
-          </a>
+          <a href="#notes">My WorkOut Notes</a>
         </li>
       </ul>
     </aside>
