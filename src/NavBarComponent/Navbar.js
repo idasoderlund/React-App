@@ -9,9 +9,8 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      {/*loga eller titel*/}
       <div className="applogo">Master Gym App</div>
-      {/*Hamburgemeny för mobila enheter*/}
+
       <div
         className="responsiveMenu"
         onClick={toggleMobileMenu}
@@ -24,8 +23,6 @@ function Navbar() {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-
-      {/*länkar*/}
 
       <div className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>
         <a href="#home">Homepage</a>
