@@ -20,6 +20,12 @@
   font-family: "Shizuru", system-ui;
 }
 
+@media (max-width: 768px) {
+  .applogo {
+    font-size: 1.2em;
+  }
+}
+
 .nav-links {
   display: flex;
   gap: 10px;

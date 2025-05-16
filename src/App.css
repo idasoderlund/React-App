@@ -8,6 +8,18 @@ body {
   min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+  .centeredcontent h1 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 768px) {
+  #calorieparagraph {
+    margin: 20px;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

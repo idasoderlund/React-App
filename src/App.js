@@ -45,6 +45,7 @@ function GymApp() {
                     justifyContent: "center",
                     alignItems: "center",
                     textAlign: "center",
+                    flexWrap: "wrap",
                   }}
                 >
                   Sometimes a good workout is all the therapy you need!
@@ -56,6 +57,7 @@ function GymApp() {
                     color: "#4f1c51",
                     fontFamily: "Shadows Into Light",
                     textDecoration: "underline",
+                    flexWrap: "wrap",
                   }}
                 >
                   Workout Schedule:
@@ -77,11 +79,12 @@ function GymApp() {
                     color: "#4f1c51",
                     fontFamily: "Shadows Into Light",
                     textDecoration: "underline",
+                    flexWrap: "wrap",
                   }}
                 >
                   Calorie Calculation:
                 </h2>
-                <p style={{ color: "#4f1c51" }}>
+                <p id="calorieparagraph" style={{ color: "#4f1c51" }}>
                   <b>Daily Calories:</b> 2100 | <b>Daily Proteine Intake:</b>{" "}
                   158g | <b>Current Deficit/Surplus:</b> +300 Kcal Surplus
                 </p>
