@@ -54,7 +54,7 @@
 
 .bar {
   height: 3px;
-  background-color: #fff;
+  background-color: #fff !important;
   margin: 4px 0;
 }
 @media (min-width: 769px) {
@@ -86,7 +86,9 @@
   }
 
   .responsiveMenu {
-    display: flex;
+    display: block;
     z-index: 100;
+
+    background-color: #a53860; /* eller transparent för test */
   }
 }
