@@ -55,7 +55,7 @@
 .bar {
   height: 3px;
   background-color: #fff;
-  margin: 2px 0;
+  margin: 4px 0;
 }
 @media (min-width: 769px) {
   .nav-links {
@@ -72,6 +72,7 @@
     top: 60px;
     right: 10px;
     background-color: #a53860;
+    color: #fff;
     flex-direction: column;
     width: 150px;
     padding: 10px;
@@ -86,5 +87,6 @@
 
   .responsiveMenu {
     display: flex;
+    z-index: 100;
   }
 }
