@@ -6,7 +6,7 @@ import "./NavBarComponent/NavBar.css";
 import "./SideBarComponent/SideBar.css";
 
 function GymApp() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true); // Exempel på koniditonell rendering
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   return (
     <div className="app-container">

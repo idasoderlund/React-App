@@ -18,7 +18,6 @@ function Navbar() {
         aria-expanded={isMobileMenuOpen}
         role="button"
       >
-        {/*Hamburgerstreck*/}
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
