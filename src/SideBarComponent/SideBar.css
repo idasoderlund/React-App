@@ -75,6 +75,10 @@
   .sidebarlist.open {
     display: flex;
   }
+
+  .asidemenu {
+    width: 80px;
+  }
 }
 
 .responsiveMenu2 {
