@@ -61,6 +61,22 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  .firstparagraph {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1;
+    grid-template-rows: 1;
+  }
+
+  .secondparagraph {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1;
+    grid-template-rows: 2;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
